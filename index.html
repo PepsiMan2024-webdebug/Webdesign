@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bookstore joining</title>
+</head>
+<body>
+    <div class="container">
+        <form action="register.php" method="post" class="signUpForm" name="signUpForm">
+            <label for="firstname" class="form-label">
+                نام خود را وارد نمایید
+            </label>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter your first name to continue ...." title="Enter your first name..." required class="form-control">
+            <br>
+            <label for="lastName" class="form-label">نام خانوادگی خود را وارد کنید</label>
+            <input type="text"  name="lastName" id="lastName" required class="form-control" placeholder="Enter your lastname...">
+            <br>
+         <label for="gender">جنسیت شما چیست (مرد یا زن)</label>
+            <br>
+            <select class="form-select" aria-label="Gender" name="gender">
+                <option value="Gender" selected>What is your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="ratherNotSay">Rather not say</option>
+                <option value="Other">Other</option>
+            </select>
+         <label for="Tel">
+            Tel number
+         </label>
+         <input type="tel" name="Tel" id="Tel" required class="form-control">
+         <br>
+         <label type="email" name="email" id="email">
+         <label type="password" class="form-control" name="password" id="password">
+        <input type="submit" value="ثبت نام" class="btn" name="signUp">
+        </form>
+        </div>
+        <form action="#" method="post">
+            <select class="form-select" aria-label="Default select example" required>
+                <option selected>رده سنی خود را مشخص کنید</option>
+                <option value="1" name="Under18" value="Under18">زیر 18 سال</option>
+                <option value="2"name="up18" value="up18">بالای 18 سال</option>
+            </select>
+            <input type="submit" value="Submit" class="signUpButton" id="signUpButton">
+        </form>
+        <audio controls>
+            <source src="Farzad Farzin - Javaher.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video controls width="320" height="240">
+            <source src="yt5s.io-Professional Baker Teaches You How To Make CUPCAKES!-(1080p).mp4" type="video/mp4">
+            Your browser does not support the Video element.
+        </video>
+    </div>
+</body>
+</html>
